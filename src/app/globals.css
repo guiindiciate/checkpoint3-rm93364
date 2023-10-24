@@ -8,6 +8,22 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+li {
+  display: inline-block;
+  text-align: left;
+  margin-top: 25px;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
+.cabeca{
+  float: right;
+  text-align: left;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -19,7 +35,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
+      to bottomt,
       transparent,
       rgb(var(--background-end-rgb))
     )
