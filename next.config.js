@@ -6,7 +6,14 @@ module.exports = {
         remotePatterns:[
             {
             protocol: "https",
-            hostname: "prints.ultracoloringpages.com",
+            hostname: "img.freepik.com",
+            port: "",
+            pathname: "/**"
+        }
+        ,
+        {
+            protocol: "https",
+            hostname: "thenorthface.vteximg.com.br",
             port: "",
             pathname: "/**"
         }
@@ -18,6 +25,7 @@ module.exports = {
             pathname: "/images/**"
         }
         ,
+        
     ],
     },
 }

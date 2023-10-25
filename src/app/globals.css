@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  background-color: black;
 }
 
 li {
@@ -16,12 +17,111 @@ li {
   margin-left: 30px;
 }
 
-.cabeca{
-  float: right;
+.titulo {
   text-align: left;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: darkslategrey;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  50% {
+    color: green;
+  }
+
+  75% {
+    color: orange;
+  }
+
+  100% {
+    color: purple;
+  }
+}
+
+h2 {
+  font-size: 90px;
+  margin-top: 90px;
+  justify-content: center;
+  text-align: center;
+  animation: colorChange 2s linear infinite;
+  background-color: black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+
+.home {
+  background-color: black;
+}
+
+
+.arrow {
+  font-size: 24px;
+  animation: moveArrow 4s linear infinite;
+  /* Animar a seta */
+  position: absolute;
+  top: 70;
+  left: 0;
+  transform: translate(0, 0);
+  color: white;
+}
+
+@keyframes moveArrow {
+  0% {
+    left: 0;
+  }
+  
+  25% {
+    left: 25%;
+  }
+  
+  50% {
+    left: 50%;
+  }
+  
+  75% {
+    left: 75%;
+  }
+  
+  100% {
+    left: 100%;
+  }
+}
+
+p {
+  text-align:center;
+  margin-top: 30px;
+  color: white;
+}
+
+.escolha {
+  color: white;
+  margin-top: -29%;
+}
+.sap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cabeca{
+  text-align: center;
   margin-right: 25px;
   margin-bottom: 50px;
-  margin-top: 25px;
+  margin-top: 1%;
   text-decoration: underline;
 }
 @media (prefers-color-scheme: dark) {
