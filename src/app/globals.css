@@ -70,7 +70,6 @@ h2 {
 .arrow {
   font-size: 24px;
   animation: moveArrow 4s linear infinite;
-  /* Animar a seta */
   position: absolute;
   top: 70;
   left: 0;

@@ -10,7 +10,7 @@ export default function Home() {
       <p className="escolha">Escolha uma das opções acima!</p>
       <div className="arrow">
         
-        ↑↑↑↑
+        
         </div> {}
     </div>
   );
